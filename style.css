@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Great Vibes', cursive;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f2ee;
+}
+
+.countdown-container {
+  text-align: center;
+  color: #5b5b5b;
+}
+
+.countdown-container h2 {
+    font-size: 30px; /* Increase font size for names */
+    color: #4a4a4a;
+    margin-bottom: 30px; /* Add space below the names */
+  }
+
+.countdown-container h1 {
+  font-size: 64px; /* Increase font size for names */
+  color: #4a4a4a;
+  margin-bottom: 10px; /* Add space below the names */
+}
+
+.countdown-container h1 span {
+  color: #c0a174;
+}
+
+#wedding-date {
+  font-size: 27px;
+  color: #5b5b5b;
+  margin-bottom: 20px; /* Add more space below the date */
+}
+
+.countdown-timer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.time-box {
+  background-color: #ece7dd;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.time-box span {
+  font-size: 50px;
+  color: #5b5b5b;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid #5b5b5b;
+  border-radius: 8px;
+  color: #5b5b5b;
+  cursor: pointer;
+}
